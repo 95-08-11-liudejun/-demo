@@ -1,0 +1,30 @@
+{
+  "name": "-demo",
+  "version": "1.0.0",
+  "description": "javaScript是一个面向对象的脚本语言，它能使网页可交互。另外还有高级的服务端javaScript 例如node。js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/95-08-11-liudejun/-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/95-08-11-liudejun/-demo/issues"
+  },
+  "homepage": "https://github.com/95-08-11-liudejun/-demo#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
