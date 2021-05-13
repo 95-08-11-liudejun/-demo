@@ -1,8 +1,9 @@
-// import _ from "lodash"
+import join from "lodash/join"
+import getTime from "./demo"
 function component () {
     var ele = document.createElement("div")
-    // ele.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    ele.innerHTML = "asdasdsd"
+    ele.innerHTML = join(['Hello', 'webpack'], ' ');
+    // ele.innerHTML = getTime()
     return ele
 }
 document.body.appendChild(component());

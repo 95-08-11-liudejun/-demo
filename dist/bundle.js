@@ -1,1 +1,0 @@
-(()=>{"use strict";var d;document.body.appendChild(((d=document.createElement("div")).innerHTML="asdasdsd",d))})();
